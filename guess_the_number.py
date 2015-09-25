@@ -1,15 +1,15 @@
-# This is a guess the number game.
+# This is a guess the number game about codeX student.
 import random
 
 guessesTaken = 0
 
 print('Hello! Please tell me your name! now!!')
-myName = input()
+myName = input()#This where you insert an input(use the Terminal)
 
-number = random.randint(3, 5)
-print(myName + ', Wow! That\s a Cool name')
-print("How many terms of study we have here at CodeX?")
-print("Please guess a number between 3 and 5")
+number = random.randint(20, 30)
+print(myName + ", Wow! That's a Cool name")
+print("How many students we have here at CodeX?")
+print("Please guess a number between 20 and 30")
 while guessesTaken < 4:
     print('Take a guess.') # There are four spaces in front of print.
     guess = input()
@@ -28,8 +28,8 @@ while guessesTaken < 4:
 
 if guess == number:
     guessesTaken = str(guessesTaken)
-    print('Awesome!, ' + myName + '! You guessed CodeX Terms in ' + guessesTaken + ' guesses!')
+    print('Awesome!, ' + myName + '! You guessed CodeX students in ' + guessesTaken + ' guesses!')
 
 if guess != number:
     number = str(number)
-    print('Nope. The number I was thinking of was ' + number)
+    print('Nope/Uyaxoka(Xhosa). The number I was thinking of was ' + number)
