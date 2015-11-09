@@ -108,7 +108,7 @@ if networkProvider == networkProvider2:
 
 
     if choosePlan == "vodacom_Prepaid_79c":
-        print(Vodacom_Prepaid_79c) # There are eight spaces in front of print.
+        print(vodacom_Prepaid_79c) # There are eight spaces in front of print.
         currentAmount = input('EnterYourCurrentAmount:')
         currentAmount = int(currentAmount)
         #Number of sms you can make
