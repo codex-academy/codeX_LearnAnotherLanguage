@@ -208,7 +208,7 @@ if networkProvider == networkProvider4 :
         peakSMSrates = currentAmount/0.75
         print('You can make',peakSMSrates ,'SMS')
 
-        #Number of Call in Network
+        #Number of Call in Network ......
         callRatesInNetworks = currentAmount/2.50
         print("You have",callRatesInNetworks, 'calls in Networks')
 
@@ -219,7 +219,6 @@ if networkProvider == networkProvider4 :
         #Data Per MB
         dataPerMB = currentAmount/2.00
         print('You have',dataPerMB ,'data Per MB')
-
 
 else :
 	print('Thanks for using our App')
